@@ -10,6 +10,7 @@
 		F252809E22FD8218005BDE3D /* ActivityLoaderLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F252809422FD8217005BDE3D /* ActivityLoaderLibrary.framework */; };
 		F25280A322FD8218005BDE3D /* ActivityLoaderLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25280A222FD8218005BDE3D /* ActivityLoaderLibraryTests.swift */; };
 		F25280A522FD8218005BDE3D /* ActivityLoaderLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = F252809722FD8217005BDE3D /* ActivityLoaderLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F25280AF22FE07FB005BDE3D /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25280AE22FE07FB005BDE3D /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F252809D22FD8218005BDE3D /* ActivityLoaderLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityLoaderLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25280A222FD8218005BDE3D /* ActivityLoaderLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoaderLibraryTests.swift; sourceTree = "<group>"; };
 		F25280A422FD8218005BDE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25280AE22FE07FB005BDE3D /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F252809722FD8217005BDE3D /* ActivityLoaderLibrary.h */,
 				F252809822FD8217005BDE3D /* Info.plist */,
+				F25280AE22FE07FB005BDE3D /* ActivityView.swift */,
 			);
 			path = ActivityLoaderLibrary;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					F252809322FD8217005BDE3D = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					F252809C22FD8218005BDE3D = {
 						CreatedOnToolsVersion = 10.3;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25280AF22FE07FB005BDE3D /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		F25280A922FD8218005BDE3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -359,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fazeel.ActivityLoaderLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +374,7 @@
 		F25280AA22FD8218005BDE3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -393,6 +401,7 @@
 		F25280AC22FD8218005BDE3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ND66T7H85;
 				INFOPLIST_FILE = ActivityLoaderLibraryTests/Info.plist;
@@ -411,6 +420,7 @@
 		F25280AD22FD8218005BDE3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ND66T7H85;
 				INFOPLIST_FILE = ActivityLoaderLibraryTests/Info.plist;
