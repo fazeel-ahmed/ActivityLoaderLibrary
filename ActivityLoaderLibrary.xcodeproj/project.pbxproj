@@ -11,6 +11,7 @@
 		F25280A322FD8218005BDE3D /* ActivityLoaderLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25280A222FD8218005BDE3D /* ActivityLoaderLibraryTests.swift */; };
 		F25280A522FD8218005BDE3D /* ActivityLoaderLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = F252809722FD8217005BDE3D /* ActivityLoaderLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F25280AF22FE07FB005BDE3D /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25280AE22FE07FB005BDE3D /* ActivityView.swift */; };
+		F2A7E27B2304732100887EC5 /* ActivityImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7E27A2304732100887EC5 /* ActivityImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		F25280A222FD8218005BDE3D /* ActivityLoaderLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoaderLibraryTests.swift; sourceTree = "<group>"; };
 		F25280A422FD8218005BDE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F25280AE22FE07FB005BDE3D /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		F2A7E27A2304732100887EC5 /* ActivityImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				F252809722FD8217005BDE3D /* ActivityLoaderLibrary.h */,
 				F252809822FD8217005BDE3D /* Info.plist */,
 				F25280AE22FE07FB005BDE3D /* ActivityView.swift */,
+				F2A7E27A2304732100887EC5 /* ActivityImageView.swift */,
 			);
 			path = ActivityLoaderLibrary;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F25280AF22FE07FB005BDE3D /* ActivityView.swift in Sources */,
+				F2A7E27B2304732100887EC5 /* ActivityImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
