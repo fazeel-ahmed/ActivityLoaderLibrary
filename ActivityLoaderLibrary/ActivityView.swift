@@ -19,7 +19,7 @@ public class CustomActivityView: UIView {
      */
     var vSpinner : UIView?
     
-    func showSpinner(onView : UIView , color : UIColor? = nil , backgroundColor : UIColor? = nil) {
+    public func showSpinner(onView : UIView , color : UIColor? = nil , backgroundColor : UIColor? = nil) {
         let spinnerView = UIView.init(frame: onView.bounds)
         spinnerView.backgroundColor = backgroundColor ?? UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
         let ai = UIActivityIndicatorView.init(style: .whiteLarge)
@@ -35,7 +35,7 @@ public class CustomActivityView: UIView {
         vSpinner = spinnerView
     }
     
-    func removeSpinner() {
+    public func removeSpinner() {
         DispatchQueue.main.async {
             self.vSpinner?.removeFromSuperview()
             self.vSpinner = nil
